@@ -51,7 +51,7 @@ Dir.chdir(Rails.root) do
   say "Installing dev server for live reloading"
   results << run("yarn add --dev webpack-dev-server @webpack-cli/serve")
 
-  #Install some packages we frequently-used.
+  # Install some packages we frequently use.
   say "Installing jquery "
   results << run("yarn add jquery")
 
